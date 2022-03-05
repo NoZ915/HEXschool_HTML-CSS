@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  outline: 1px solid rgb(139, 139, 69);
+  /* outline: 1px solid rgb(139, 139, 69); */
 
   font-family: 微軟正黑體;
   font-size: 0;
@@ -121,6 +121,7 @@ nav a+a{
 
 /* -----main----- */
 main{
+  margin-bottom: 50px;
   min-width: 900px;
 }
 .main-container{
@@ -154,4 +155,41 @@ li{
   margin-left: 20px;
 
   font-size: 16px;
+}
+
+/* -----table----- */
+.table{
+  min-width: 900px;
+}
+.table-container{
+  margin: 0 auto;
+  width: 1000px;
+}
+h2{
+  margin-bottom: 20px;
+  text-align: center;
+
+  font-size: 25px;
+}
+table{
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 10px; 
+}
+tr:nth-child(1) td{
+  border-top: 0.3px rgb(128, 128, 128) solid;
+}
+td{
+  border-bottom: 0.3px rgb(128, 128, 128) solid;
+
+  font-size: 16px;
+}
+td + td{
+  margin-left: 40px;
+}
+.highlight-text{
+  color: #00cc99;
+}
+.row-title-text{
+  font-weight: 900;
 }
